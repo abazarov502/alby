@@ -1,0 +1,17 @@
+# Maven
+backend/target/
+
+# IDE
+.idea/
+*.iml
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+backend/pgdata/
+
+# OS
+.DS_Store
+Thumbs.db

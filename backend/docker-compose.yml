@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: alby-db
+    environment:
+      POSTGRES_DB: albydb
+      POSTGRES_USER: albyuser
+      POSTGRES_PASSWORD: albypass
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
