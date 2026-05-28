@@ -110,7 +110,7 @@ erDiagram
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/your-username/alby.git
+git clone https://github.com/abazarov502/alby.git
 cd alby
 ```
 
